@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mes Services — Portfolio Oussama Saouabeddine</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="brand"><a href="index.html"><b>Oussama</b> Saouabeddine</a></div>
+      <div class="menu">
+        <a href="index.html">Accueil</a>
+        <a class="active" href="mes-services.html">Mes Services</a>
+        <a href="mes-projets.html">Mes Projets</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="blog.html">Blogs & Articles</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- EN-TÊTE -->
+  <header class="container">
+    <div class="breadcrumbs"><a href="index.html">Accueil</a> › Mes Services</div>
+    <h1>Mes Services</h1>
+    <p class="lead">Je livre des résultats mesurables avec une approche pragmatique et orientée valeur.</p>
+  </header>
+
+  <!-- SECTION SERVICES -->
+  <section class="container">
+    <div class="grid cols-2">
+      <article class="card">
+        <h3>Pipelines & Plateformes Data</h3>
+        <ul class="list">
+          <li>Conception de pipelines <b>ETL/ELT</b> (Python, Pandas, psycopg2).</li>
+          <li>Automatisation <b>Apache NiFi</b>, intégration multi-sources.</li>
+          <li>Qualité & validation des données.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Entrepôt & Modélisation</h3>
+        <ul class="list">
+          <li><b>PostgreSQL</b> avec schéma en étoile, vues pour la BI.</li>
+          <li>Optimisation requêtes & indexation.</li>
+          <li>Documentation data & dictionnaire de données.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Analytique & BI</h3>
+        <ul class="list">
+          <li>Tableaux de bord <b>Power BI</b> & <b>Streamlit</b>.</li>
+          <li>KPIs, segmentation, drill-down & storytelling.</li>
+          <li>Partage sécurisé & gouvernance de l’accès.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>IA & Machine Learning</h3>
+        <ul class="list">
+          <li>RAG pour recherche sémantique et Q/R.</li>
+          <li>Modèles : <b>XGBoost</b>, <b>LSTM</b>, KNN, régression.</li>
+          <li>Métriques, suivi des performances et MLOps léger.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="container">
+    <div class="card">
+      <h3>Stack principale</h3>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">scikit-learn</span>
+        <span class="tag">XGBoost</span><span class="tag">LSTM</span><span class="tag">SQL</span>
+        <span class="tag">PostgreSQL</span><span class="tag">Apache NiFi</span>
+        <span class="tag">Power BI</span><span class="tag">Streamlit</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="tiny">© <span id="year"></span> Oussama Saouabeddine</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>

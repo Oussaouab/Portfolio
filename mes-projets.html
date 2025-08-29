@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mes Projets — Portfolio Oussama Saouabeddine</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="brand"><a href="index.html"><b>Oussama</b> Saouabeddine</a></div>
+      <div class="menu">
+        <a href="index.html">Accueil</a>
+        <a href="mes-services.html">Mes Services</a>
+        <a class="active" href="mes-projets.html">Mes Projets</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="blog.html">Blogs & Articles</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- EN-TÊTE -->
+  <header class="container">
+    <div class="breadcrumbs"><a href="index.html">Accueil</a> › Mes Projets</div>
+    <h1>Mes Projets</h1>
+    <p class="lead">Sélection de projets data, IA/ML et décisionnel.</p>
+  </header>
+
+  <!-- PROJETS -->
+  <section class="container">
+    <div class="grid cols-2">
+      <!-- Projet Immobilier (stage) -->
+      <article class="card project">
+        <h3>Stage PFE — IA pour l’Immobilier (3 mois)</h3>
+        <p>
+          Prototype combinant <b>chatbot RAG</b> pour l’exploration documentaire
+          et <b>prédiction des prix</b> immobiliers (XGBoost & LSTM). Mise en place d’un
+          pipeline complet : ingestion multi-format, recherche sémantique, génération augmentée
+          et interface React.
+        </p>
+        <p class="tech">Python, scikit-learn, XGBoost, TensorFlow/Keras (LSTM), PostgreSQL, RAG, React</p>
+        <div class="tags">
+          <span class="tag">RAG</span><span class="tag">Prédiction</span><span class="tag">Immobilier</span>
+        </div>
+      </article>
+
+      <!-- Projet ETL + DWH -->
+      <article class="card project">
+        <h3>Projet Décisionnel — Entrepôt & Pipelines ETL</h3>
+        <p>
+          <b>Entrepôt PostgreSQL</b> (schéma en étoile) alimenté par un pipeline <b>ETL Python</b>
+          (Pandas/psycopg2) pour données de ventes, et <b>automatisation Apache NiFi</b> pour un flux météo.
+          Restitution via tableaux de bord <b>Power BI</b> & <b>Streamlit</b>.
+        </p>
+        <p class="tech">PostgreSQL, Python, Pandas, psycopg2, Apache NiFi, Power BI, Streamlit</p>
+        <div class="tags">
+          <span class="tag">ETL</span><span class="tag">DWH</span><span class="tag">BI</span>
+        </div>
+      </article>
+
+      <!-- Autres projets -->
+      <article class="card project">
+        <h3>Analyse des Startups</h3>
+        <p>Interface interactive pour comparer les écosystèmes US, Chine et Europe.</p>
+        <p class="tech">Python, Web, Visualisation</p>
+      </article>
+
+      <article class="card project">
+        <h3>Tech Horizons (Magazine)</h3>
+        <p>Abonnements, système de recommandation, UI intuitive.</p>
+        <p class="tech">Web, Recommandation</p>
+      </article>
+
+      <article class="card project">
+        <h3>Prédiction maladies animales</h3>
+        <p>Classification avec KNN & Régression Logistique, pipeline features + évaluation.</p>
+        <p class="tech">scikit-learn</p>
+      </article>
+
+      <article class="card project">
+        <h3>Page web interactive</h3>
+        <p>Tableaux de données clairs avec tri/filtre.</p>
+        <p class="tech">HTML, CSS, JS</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="tiny">© <span id="year"></span> Oussama Saouabeddine</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>

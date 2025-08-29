@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogs & Articles — Portfolio Oussama Saouabeddine</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner container">
+      <div class="brand"><a href="index.html"><b>Oussama</b> Saouabeddine</a></div>
+      <div class="menu">
+        <a href="index.html">Accueil</a>
+        <a href="mes-services.html">Mes Services</a>
+        <a href="mes-projets.html">Mes Projets</a>
+        <a href="a-propos.html">À propos</a>
+        <a class="active" href="blog.html">Blogs & Articles</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- EN-TÊTE -->
+  <header class="container">
+    <div class="breadcrumbs"><a href="index.html">Accueil</a> › Blogs & Articles</div>
+    <h1>Blogs & Articles</h1>
+    <p class="lead">Idées et retours d’expérience autour de la data, du ML et des pipelines.</p>
+  </header>
+
+  <!-- LISTE D'ARTICLES -->
+  <section class="container">
+    <div class="grid cols-2">
+      <article class="card">
+        <h3>Entrepôt PostgreSQL en étoile — de la modélisation au dashboard</h3>
+        <p>Modèle logique → schéma en étoile → ETL Python → vues BI et KPIs.</p>
+        <p class="tiny">5 min de lecture</p>
+      </article>
+
+      <article class="card">
+        <h3>Streamlit vs Power BI — quand utiliser quoi (et comment les combiner)</h3>
+        <p>Complémentarités, démo rapide, bonnes pratiques de partage.</p>
+        <p class="tiny">6 min de lecture</p>
+      </article>
+
+      <article class="card">
+        <h3>Pipelines automatisés avec Apache NiFi</h3>
+        <p>Processors, scheduling, monitoring, patterns réutilisables.</p>
+        <p class="tiny">7 min de lecture</p>
+      </article>
+
+      <article class="card">
+        <h3>RAG en pratique — pipeline de recherche sémantique</h3>
+        <p>Index, embeddings, citations de sources, UX conversationnelle.</p>
+        <p class="tiny">8 min de lecture</p>
+      </article>
+
+      <article class="card">
+        <h3>Prix immobiliers — XGBoost vs LSTM : retour d’expérience</h3>
+        <p>Features, métriques, comparaison, limites et pistes d’amélioration.</p>
+        <p class="tiny">6 min de lecture</p>
+      </article>
+
+      <article class="card">
+        <h3>KNN & Régression logistique pour la santé animale</h3>
+        <p>Pipeline features, validation croisée, interprétation.</p>
+        <p class="tiny">5 min de lecture</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <p class="tiny">© <span id="year"></span> Oussama Saouabeddine</p>
+  </footer>
+
+  <!-- SCRIPT JS -->
+  <script src="script.js"></script>
+</body>
+</html>
